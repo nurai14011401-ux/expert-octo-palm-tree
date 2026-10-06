@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Уравнения: первый шаг · 5 класс</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <script src="../js/equations.js" defer></script>
+</head>
+<body>
+  <main>
+    <nav aria-label="Навигация"><a href="../index.html">← Все задания</a></nav>
+    <p class="eyebrow">5 класс · Базовый уровень</p>
+    <h1>Уравнения: первый шаг</h1>
+    <p>Найди неизвестное слагаемое. Запиши решение в тетради, затем проверь ответ.</p>
+    <section class="card" aria-labelledby="problem-title">
+      <h2 id="problem-title">Реши уравнение</h2>
+      <p class="equation">x + 17 = 42</p>
+      <form id="answer-form" novalidate>
+        <label for="answer">Чему равен x?</label>
+        <input id="answer" name="answer" type="text" inputmode="decimal" autocomplete="off" aria-describedby="answer-help feedback">
+        <p id="answer-help">Введи число. Можно использовать запятую или точку.</p>
+        <div class="actions"><button type="submit">Проверить</button><button type="reset" class="secondary">Начать заново</button></div>
+      </form>
+      <p id="feedback" role="status" aria-live="polite" aria-atomic="true"></p>
+      <details><summary>Нужна подсказка?</summary><p>Чтобы найти неизвестное слагаемое, вычти известное слагаемое из суммы.</p></details>
+      <noscript><p>Проверка ответа требует включённого JavaScript. Реши в тетради и проверь подстановкой: сумма должна равняться 42.</p></noscript>
+    </section>
+    <section><h2>Объясни решение</h2><p>Почему здесь нужно вычитание? Подставь найденное число вместо x и сравни обе части равенства.</p></section>
+  </main>
+</body>
+</html>
